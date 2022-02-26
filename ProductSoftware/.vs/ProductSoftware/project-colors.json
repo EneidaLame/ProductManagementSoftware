@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "da0229f7-d71f-4cb3-a909-08b407fc9797": {
+      "ProjectGuid": "da0229f7-d71f-4cb3-a909-08b407fc9797",
+      "DisplayName": "ProductSoftware",
+      "ColorIndex": 0
+    },
+    "8d7d9b59-4547-4bb5-9e78-13ac8f6f76e3": {
+      "ProjectGuid": "8d7d9b59-4547-4bb5-9e78-13ac8f6f76e3",
+      "DisplayName": "ProductSoaftwareAPI",
+      "ColorIndex": 1
+    },
+    "3bc223b4-32af-423a-acb8-50b3a70aef8d": {
+      "ProjectGuid": "3bc223b4-32af-423a-acb8-50b3a70aef8d",
+      "DisplayName": "ProductSoftwareAPI",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3bf8772f-7ac1-4bbc-9278-a4b61528279b": {
+      "ProjectGuid": "3bf8772f-7ac1-4bbc-9278-a4b61528279b",
+      "DisplayName": "ShopOnline.Models",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
