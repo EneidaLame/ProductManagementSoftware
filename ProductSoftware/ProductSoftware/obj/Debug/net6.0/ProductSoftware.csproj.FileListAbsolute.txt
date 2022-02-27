@@ -813,3 +813,13 @@ C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftwa
 C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\ProductSoftware.dll
 C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\ref\ProductSoftware.dll
 C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\ProductSoftware.pdb
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.dll
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.pdb
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.dll.gz
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.pdb.gz
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\ShopOnline.Models.dll
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\bin\Debug\net6.0\ShopOnline.Models.pdb
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\build-gz\fzrHKTMI.gz
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\build-gz\ozSuv0nK.gz
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\scopedcss\Pages\DisplayProducts.razor.rz.scp.css
+C:\Users\Eneid\Desktop\Product Management Software\ProductSoftware\ProductSoftware\obj\Debug\net6.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css

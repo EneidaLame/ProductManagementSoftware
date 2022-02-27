@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 using ProductSoftwareAPI.Data;
 using ProductSoftwareAPI.Repositories;
 using ProductSoftwareAPI.Repositories.Contracts;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:7135", "https://localhost:7135")
+    .AllowAnyMethod()
+    .WithHeaders(HeaderNames.ContentType)
+);
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -34,3 +42,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
