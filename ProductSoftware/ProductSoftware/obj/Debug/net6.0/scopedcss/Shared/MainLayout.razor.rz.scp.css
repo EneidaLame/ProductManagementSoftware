@@ -27,14 +27,14 @@ main[b-yynmfgvq1w] {
         text-decoration: none;
     }
 
-    .top-row[b-yynmfgvq1w]  a:hover, .top-row[b-yynmfgvq1w]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-yynmfgvq1w]  a:hover, .top-row[b-yynmfgvq1w]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-yynmfgvq1w]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-yynmfgvq1w]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-yynmfgvq1w] {
@@ -68,11 +68,11 @@ main[b-yynmfgvq1w] {
         z-index: 1;
     }
 
-    .top-row.auth[b-yynmfgvq1w]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-yynmfgvq1w]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-yynmfgvq1w], article[b-yynmfgvq1w] {
         padding-left: 2rem !important;
