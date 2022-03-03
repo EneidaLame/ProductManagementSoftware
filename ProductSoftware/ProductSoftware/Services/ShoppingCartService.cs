@@ -6,13 +6,13 @@ namespace ProductSoftware.Services
 {
     public class ShoppingCartService : IShoppingCartService
     {
+       
         private readonly HttpClient httpClient;
 
         public ShoppingCartService(HttpClient httpClient)
         {
             this.httpClient = httpClient;
         }
-
         public async Task<CartItemDto> AddItem(CartItemToAddDto cartItemToAddDto)
         {
             try
@@ -43,6 +43,25 @@ namespace ProductSoftware.Services
             }
         }
 
+        public async Task<CartItemDto> DeleteItem(int id)
+        {
+            try
+            {
+                var response = await httpClient.DeleteAsync($"api/ShoppingCart/{id}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadFromJsonAsync<CartItemDto>();
+                }
+                return default(CartItemDto);
+            }
+            catch (Exception)
+            {
+                //Log exception
+                throw;
+            }
+        }
+
         public async Task<List<CartItemDto>> GetItems(int userId)
         {
             try
@@ -69,11 +88,6 @@ namespace ProductSoftware.Services
 
                 throw;
             }
-        }
-
-        Task<IEnumerable<CartItemDto>> IShoppingCartService.GetItems(int userId)
-        {
-            throw new NotImplementedException();
         }
     }
 }
