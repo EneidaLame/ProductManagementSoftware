@@ -1648,3 +1648,7 @@ C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSo
 C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\obj\Debug\net6.0\refint\ProductSoftware.dll
 C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\obj\Debug\net6.0\ProductSoftware.pdb
 C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\obj\Debug\net6.0\ref\ProductSoftware.dll
+C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\obj\Debug\net6.0\build-gz\PoVMu9Wd.gz

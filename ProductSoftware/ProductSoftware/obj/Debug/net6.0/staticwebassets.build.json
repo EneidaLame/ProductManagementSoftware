@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s7YIbZwaFPsFJcIOi/gt48wxb8TExvK+Z4Mw4gVHuNs=",
+  "Hash": "hDSg0hufyQ4VgczX9VTuqt2DJamfPmzmvloEUfqTIBo=",
   "Source": "ProductSoftware",
   "BasePath": "/",
   "Mode": "Root",
@@ -661,6 +661,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\elame\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "ProductSoftware",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\elame\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ProductSoftware.dll",
@@ -5897,6 +5914,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Ping.dll"
+    },
+    {
+      "Identity": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\obj\\Debug\\net6.0\\build-gz\\PoVMu9Wd.gz",
+      "SourceId": "ProductSoftware",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\obj\\Debug\\net6.0\\build-gz\\pTOb91li.gz",

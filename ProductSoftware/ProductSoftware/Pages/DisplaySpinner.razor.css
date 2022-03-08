@@ -1,4 +1,5 @@
-﻿.lds-spinner {
+﻿
+.lds-spinner {
     color: official;
     display: inline-block;
     position: relative;
@@ -91,3 +92,4 @@
     100% {
         opacity: 0;
     }
+}

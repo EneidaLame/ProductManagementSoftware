@@ -3,10 +3,10 @@ a[b-fm39eu7w28] {
     text-decoration: none;
 }
 
-a:hover .card[b-fm39eu7w28] {
+    a:hover .card[b-fm39eu7w28] {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         transition: box-shadow 0.3s ease-in-out;
-}
+    }
 
 .card[b-fm39eu7w28] {
     transition: box-shadow 0.3s ease-in-out;
@@ -22,6 +22,7 @@ img[b-fm39eu7w28] {
     transition: 0.5s ease-in-out;
 }
 /* /Pages/DisplaySpinner.razor.rz.scp.css */
+
 .lds-spinner[b-wvpiwlbi4a] {
     color: official;
     display: inline-block;
@@ -115,6 +116,7 @@ img[b-fm39eu7w28] {
     100% {
         opacity: 0;
     }
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-yynmfgvq1w] {
     position: relative;
