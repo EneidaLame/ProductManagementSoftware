@@ -110,7 +110,7 @@ namespace ProductSoftwareAPI.Migrations
                             Id = 1,
                             CategoryId = 1,
                             Description = "Acer Monitors",
-                            ImageUrl = "/Images/Monitors/1.png",
+                            ImageUrl = "/Images/Monitors/1.jpg",
                             Name = "Monitor",
                             Price = 200m,
                             Qty = 10
@@ -138,6 +138,36 @@ namespace ProductSoftwareAPI.Migrations
                         new
                         {
                             Id = 4,
+                            CategoryId = 1,
+                            Description = "GamingMonitors",
+                            ImageUrl = "/Images/Monitors/4.png",
+                            Name = "Monitor",
+                            Price = 700m,
+                            Qty = 30
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 1,
+                            Description = "Curved Monitors",
+                            ImageUrl = "/Images/Monitors/5.jpg",
+                            Name = "Monitor",
+                            Price = 500m,
+                            Qty = 100
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 1,
+                            Description = "Monitors",
+                            ImageUrl = "/Images/Monitors/6.jpg",
+                            Name = "Monitor",
+                            Price = 400m,
+                            Qty = 11
+                        },
+                        new
+                        {
+                            Id = 7,
                             CategoryId = 2,
                             Description = "Desktop",
                             ImageUrl = "/Images/Desktop/1.jpg",
@@ -147,7 +177,7 @@ namespace ProductSoftwareAPI.Migrations
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 8,
                             CategoryId = 2,
                             Description = "Desktop",
                             ImageUrl = "/Images/Desktop/2.jpeg",
@@ -157,17 +187,47 @@ namespace ProductSoftwareAPI.Migrations
                         },
                         new
                         {
-                            Id = 6,
+                            Id = 9,
                             CategoryId = 2,
                             Description = "Desktop",
-                            ImageUrl = "/Images/Desktop/3.jpeg",
+                            ImageUrl = "/Images/Desktop/3.jpg",
                             Name = "Desktop",
                             Price = 600m,
                             Qty = 300
                         },
                         new
                         {
-                            Id = 7,
+                            Id = 10,
+                            CategoryId = 2,
+                            Description = "Desktop",
+                            ImageUrl = "/Images/Desktop/4.jpeg",
+                            Name = "Desktop",
+                            Price = 800m,
+                            Qty = 30
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CategoryId = 2,
+                            Description = "Desktop",
+                            ImageUrl = "/Images/Desktop/5.jpg",
+                            Name = "Desktop",
+                            Price = 800m,
+                            Qty = 90
+                        },
+                        new
+                        {
+                            Id = 12,
+                            CategoryId = 2,
+                            Description = "Desktop",
+                            ImageUrl = "/Images/Desktop/6.jpg",
+                            Name = "Desktop",
+                            Price = 1000m,
+                            Qty = 200
+                        },
+                        new
+                        {
+                            Id = 13,
                             CategoryId = 3,
                             Description = "Laptop",
                             ImageUrl = "/Images/Laptops/1.jpeg",
@@ -177,7 +237,7 @@ namespace ProductSoftwareAPI.Migrations
                         },
                         new
                         {
-                            Id = 8,
+                            Id = 14,
                             CategoryId = 3,
                             Description = "Laptop",
                             ImageUrl = "/Images/Laptops/2.jpg",
@@ -187,13 +247,33 @@ namespace ProductSoftwareAPI.Migrations
                         },
                         new
                         {
-                            Id = 9,
+                            Id = 19,
                             CategoryId = 3,
                             Description = "Laptop",
                             ImageUrl = "/Images/Laptops/3.jpeg",
                             Name = "Laptop",
                             Price = 700m,
                             Qty = 90
+                        },
+                        new
+                        {
+                            Id = 20,
+                            CategoryId = 3,
+                            Description = "Laptop",
+                            ImageUrl = "/Images/Laptops/4.jpg",
+                            Name = "Laptop",
+                            Price = 900m,
+                            Qty = 65
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CategoryId = 3,
+                            Description = "Laptop",
+                            ImageUrl = "/Images/Laptops/5.jpeg",
+                            Name = "Laptop",
+                            Price = 400m,
+                            Qty = 22
                         });
                 });
 

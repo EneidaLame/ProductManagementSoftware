@@ -21,7 +21,7 @@ namespace ProductSoftwareAPI.Data
 				Id = 1,
 				Name = "Monitor",
 				Description = "Acer Monitors",
-				ImageUrl = "/Images/Monitors/1.png",
+				ImageUrl = "/Images/Monitors/1.jpg",
 				Price = 200,
 				Qty = 10,
 				CategoryId = 1
@@ -49,10 +49,43 @@ namespace ProductSoftwareAPI.Data
 				CategoryId = 1
 
 			});
-			//Desktop
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
 				Id = 4,
+				Name = "Monitor",
+				Description = "GamingMonitors",
+				ImageUrl = "/Images/Monitors/4.png",
+				Price = 700,
+				Qty = 30,
+				CategoryId = 1
+
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 5,
+				Name = "Monitor",
+				Description = "Curved Monitors",
+				ImageUrl = "/Images/Monitors/5.jpg",
+				Price = 500,
+				Qty = 100,
+				CategoryId = 1
+
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 6,
+				Name = "Monitor",
+				Description = "Monitors",
+				ImageUrl = "/Images/Monitors/6.jpg",
+				Price = 400,
+				Qty = 11,
+				CategoryId = 1
+
+			});
+			//Desktop
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 7,
 				Name = "Desktop",
 				Description = "Desktop",
 				ImageUrl = "/Images/Desktop/1.jpg",
@@ -63,7 +96,7 @@ namespace ProductSoftwareAPI.Data
 			});
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
-				Id = 5,
+				Id = 8,
 				Name = "Desktop",
 				Description = "Desktop",
 				ImageUrl = "/Images/Desktop/2.jpeg",
@@ -74,19 +107,52 @@ namespace ProductSoftwareAPI.Data
 			});
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
-				Id = 6,
+				Id = 9,
 				Name = "Desktop",
 				Description = "Desktop",
-				ImageUrl = "/Images/Desktop/3.jpeg",
+				ImageUrl = "/Images/Desktop/3.jpg",
 				Price = 600,
 				Qty = 300,
+				CategoryId = 2
+
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 10,
+				Name = "Desktop",
+				Description = "Desktop",
+				ImageUrl = "/Images/Desktop/4.jpeg",
+				Price = 800,
+				Qty = 30,
+				CategoryId = 2
+
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 11,
+				Name = "Desktop",
+				Description = "Desktop",
+				ImageUrl = "/Images/Desktop/5.jpg",
+				Price = 800,
+				Qty = 90,
+				CategoryId = 2
+
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 12,
+				Name = "Desktop",
+				Description = "Desktop",
+				ImageUrl = "/Images/Desktop/6.jpg",
+				Price = 1000,
+				Qty = 200,
 				CategoryId = 2
 
 			});
 			//Laptops
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
-				Id = 7,
+				Id = 13,
 				Name = "Laptop",
 				Description = "Laptop",
 				ImageUrl = "/Images/Laptops/1.jpeg",
@@ -97,7 +163,7 @@ namespace ProductSoftwareAPI.Data
 
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
-				Id = 8,
+				Id = 14,
 				Name = "Laptop",
 				Description = "Laptop",
 				ImageUrl = "/Images/Laptops/2.jpg",
@@ -107,7 +173,7 @@ namespace ProductSoftwareAPI.Data
 			});
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
-				Id = 9,
+				Id = 19,
 				Name = "Laptop",
 				Description = "Laptop",
 				ImageUrl = "/Images/Laptops/3.jpeg",
@@ -115,6 +181,27 @@ namespace ProductSoftwareAPI.Data
 				Qty = 90,
 				CategoryId = 3
 			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 20,
+				Name = "Laptop",
+				Description = "Laptop",
+				ImageUrl = "/Images/Laptops/4.jpg",
+				Price = 900,
+				Qty = 65,
+				CategoryId = 3
+			});
+			modelBuilder.Entity<Product>().HasData(new Product
+			{
+				Id = 21,
+				Name = "Laptop",
+				Description = "Laptop",
+				ImageUrl = "/Images/Laptops/5.jpeg",
+				Price = 400,
+				Qty = 22,
+				CategoryId = 3
+			});
+
 			//Add users
 			modelBuilder.Entity<User>().HasData(new User
 			{

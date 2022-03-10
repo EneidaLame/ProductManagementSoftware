@@ -38,7 +38,7 @@ namespace ProductSoftware.Pages
             var cartItemDto = await ShoppingCartService.DeleteItem(id);
 
             RemoveCartItem(id);
-            CalculateCartSummaryTotals();
+            //CalculateCartSummaryTotals();
 
         }
 
