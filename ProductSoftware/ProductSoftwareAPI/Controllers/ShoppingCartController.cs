@@ -37,7 +37,7 @@ namespace ProductSoftwareAPI.Controllers
 
                 if (products == null)
                 {
-                    throw new Exception("No products exist in the system");
+                    throw new Exception("There are no products in the database!");
                 }
 
                 var cartItemsDto = cartItems.ConvertToDto(products);
@@ -136,6 +136,7 @@ namespace ProductSoftwareAPI.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+       
 
     }
 }

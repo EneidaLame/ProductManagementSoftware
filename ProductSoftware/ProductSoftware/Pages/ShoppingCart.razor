@@ -30,7 +30,7 @@ else
                         </span>
                         <div>
                             <button  @onclick ="(() => DeleteCartItem_Click(item.Id))"
-                            class="btn btn-danger sm"><i class="fa fa-trash">Remove</i></button>
+                            class="btn btn-danger sm">Remove</button>
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ else
         <div class="col-md-3">
             <h5>Cart Summary</h5>
             <div class="mt-2">
-                <div>Total - (@TotalQuantity items)&nbsp;<b>@TotalPrice</b></div>
+                <div>Total price: &nbsp;<b>@TotalPrice</b></div>
                 <a href="#" class="btn btn-success">
                     <span class="oi oi-credit-card"></span>&nbsp; Proceed to Checkout 
                 </a>

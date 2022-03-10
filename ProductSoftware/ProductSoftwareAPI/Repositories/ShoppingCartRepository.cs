@@ -45,9 +45,9 @@ namespace ProductSoftwareAPI.Repositories
 
         public async Task<CartItem> DeleteItem(int id)
         {
-            var item = await this.productSoftwareDbContext.CartItems.FindAsync();
+            var item = await this.productSoftwareDbContext.CartItems.FindAsync(id);
 
-            if (item != null) 
+            if (item != null)
             {
                 this.productSoftwareDbContext.CartItems.Remove(item);
                 await this.productSoftwareDbContext.SaveChangesAsync();
@@ -83,9 +83,7 @@ namespace ProductSoftwareAPI.Repositories
                           }).ToListAsync();
         }
 
-        public Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
-        {
-            throw new NotImplementedException();
-        }
+     
+     
     }
 }
