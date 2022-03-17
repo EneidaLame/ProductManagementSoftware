@@ -10,6 +10,7 @@ namespace ProductSoftwareAPI.Repositories.Contracts
         Task<CartItem> DeleteItem(int id);
         Task<CartItem> GetItem(int id);
         Task<IEnumerable<CartItem>> GetItems(int userId);
-        
+        Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto);
+
     }
 }

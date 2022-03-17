@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/Products.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/ShoppingCart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -53,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope = b-fm39eu7w28
 [C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplaySpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wvpiwlbi4a
+
+[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kcmnadcz60
 
 [C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

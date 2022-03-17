@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿ using Microsoft.EntityFrameworkCore;
 using ProductSoftwareAPI.Data;
 using ProductSoftwareAPI.Entities;
 using ProductSoftwareAPI.Repositories.Contracts;
@@ -82,8 +82,20 @@ namespace ProductSoftwareAPI.Repositories
                               CartId = cartItem.CartId
                           }).ToListAsync();
         }
+        public async Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
+        {
+            var item = await this.productSoftwareDbContext.CartItems.FindAsync(id);
 
-     
-     
+            if (item != null)
+            {
+                item.Qty = cartItemQtyUpdateDto.Qty;
+                await this.productSoftwareDbContext.SaveChangesAsync();
+                return item;
+            }
+
+            return null;
+        }
+
+
     }
 }

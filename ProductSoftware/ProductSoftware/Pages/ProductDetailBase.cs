@@ -41,10 +41,10 @@ namespace ProductSoftware.Pages
                 var cartItemDto = await ShoppingCartService.AddItem(cartItemToAddDto);
                 NavigationManager.NavigateTo("/ShoppingCart");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                //Log Exception
+                ErrorMessage = ex.Message;
+                
             }
         }
 
