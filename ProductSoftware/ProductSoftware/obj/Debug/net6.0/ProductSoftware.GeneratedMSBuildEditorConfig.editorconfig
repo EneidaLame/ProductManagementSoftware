@@ -11,53 +11,57 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ProductSoftware
 build_property.RootNamespace = ProductSoftware
-build_property.ProjectDir = C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware\
+build_property.ProjectDir = C:\Users\eneida\Desktop\ProductManagementSoftware\ProductSoftware\ProductSoftware\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\elame\Desktop\final\ProductManagementSoftware\ProductSoftware\ProductSoftware
+build_property.MSBuildProjectDirectory = C:\Users\eneida\Desktop\ProductManagementSoftware\ProductSoftware\ProductSoftware
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/App.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplayError.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplayError.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUVycm9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/ProductDetails.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/ShoppingCart.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/ShoppingCart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/SurveyPrompt.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/CartMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/_Imports.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplayProducts.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplayProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-fm39eu7w28
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplaySpinner.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/DisplaySpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVNwaW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wvpiwlbi4a
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/Products.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Pages/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kcmnadcz60
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/MainLayout.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yynmfgvq1w
 
-[C:/Users/elame/Desktop/final/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/NavMenu.razor]
+[C:/Users/eneida/Desktop/ProductManagementSoftware/ProductSoftware/ProductSoftware/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-arkx3rc6wv

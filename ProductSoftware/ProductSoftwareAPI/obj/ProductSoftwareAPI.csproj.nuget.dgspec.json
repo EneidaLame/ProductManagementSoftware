@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj": {}
+    "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj": {
+    "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj",
+        "projectUniqueName": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj",
         "projectName": "ProductSoftwareAPI",
-        "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj",
-        "packagesPath": "C:\\Users\\elame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\obj\\",
+        "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\ProductSoftwareAPI.csproj",
+        "packagesPath": "C:\\Users\\eneida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftwareAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eneida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj": {
-                "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj"
+              "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj": {
+                "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj"
               },
-              "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-                "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj"
+              "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+                "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj"
               }
             }
           }
@@ -88,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj": {
+    "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj",
+        "projectUniqueName": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj",
         "projectName": "ProductSoftware",
-        "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj",
-        "packagesPath": "C:\\Users\\elame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\obj\\",
+        "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\ProductSoftware.csproj",
+        "packagesPath": "C:\\Users\\eneida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eneida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-                "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj"
+              "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+                "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj"
               }
             }
           }
@@ -167,7 +167,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.2, 6.0.2]"
+              "version": "[6.0.3, 6.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -175,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -184,20 +184,20 @@
         }
       }
     },
-    "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+    "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectUniqueName": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "projectName": "ShopOnline.Models",
-        "projectPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj",
-        "packagesPath": "C:\\Users\\elame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elame\\Desktop\\final\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\obj\\",
+        "projectPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "packagesPath": "C:\\Users\\eneida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eneida\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ShopOnline.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eneida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -244,7 +244,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
