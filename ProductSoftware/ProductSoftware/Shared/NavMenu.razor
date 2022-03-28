@@ -1,6 +1,7 @@
 ﻿@implements IDisposable
 @inject IShoppingCartService shoppingCartService
 
+
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Product Software</a>
@@ -18,23 +19,23 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink  class="nav-link" href="Desktops">
-                <span class="oi oi-plus" aria-hidden="true"></span>Desktops
+            <NavLink  class="nav-link" href="DisplayDesktop">
+                <span class="bi bi-battery" aria-hidden="true"></span>Desktop
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="Monitors">
-                <span class="oi oi-plus" aria-hidden="true"></span> Monitors
+                <span class="oi oi-monitor" aria-hidden="true"></span> Monitors
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="Laptops">
-                <span class="oi oi-plus" aria-hidden="true"></span> Laptops
+                <span class="oi oi-laptop" aria-hidden="true"></span> Laptops
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="ShoppingCart">
-                <span class="oi oi-plus" aria-hidden="true"></span>&nbsp;Cart (<b>@ShoppingCartItemsCount</b>)
+                <span class="oi oi-cart" aria-hidden="true"></span>&nbsp;Cart (<b>@ShoppingCartItemsCount</b>)
             </NavLink>
         </div>
     </nav>
@@ -66,4 +67,6 @@
     {
         shoppingCartService.OnShoppingCartChanged -= ShoppingCartChanged;
     }
+
+    
 }
