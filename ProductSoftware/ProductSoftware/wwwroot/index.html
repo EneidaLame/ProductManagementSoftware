@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>ProductSoftware</title>
+    <title>Product Software</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="ProductSoftware.styles.css" rel="stylesheet" />
+  
 </head>
 
 <body>
@@ -19,9 +20,6 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
-    
-
 
     <script src="https://www.paypal.com/sdk/js?client-id=AeCTeWENXRRp36SRzOF87GkmwgcTOqJp_BQjhwuEm4J7wSm9sf9f_bxdHDVPsowH4rrb9KZIl15bDJq_&currency=EUR" data-sdk-integration-source="button-factory"></script>
     <script>
@@ -35,16 +33,18 @@
 
             paypal.Buttons({
                 style: {
-                    color: 'white',
-                    shape: 'pill',
-                    label: 'checkout',
+                    color: 'gold',
+                    shape: 'rect',
+                    label: 'paypal',
                     layout: 'vertical',
 
                 },
 
                 createOrder: function (data, actions) {
+
                     purchase_units[0].description = description.value;
                     purchase_units[0].amount.value = amount.value;
+
                     return actions.order.create({
                         purchase_units: purchase_units,
                     });
@@ -70,11 +70,9 @@
                     console.log(err);
                 }
             }).render('#paypal-button-container');
-        }
 
     </script>
-
-
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/ShoppingCartFunctions.js"></script>
 </body>
-
 </html>

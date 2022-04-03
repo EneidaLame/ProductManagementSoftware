@@ -16,10 +16,12 @@ namespace ProductSoftware.Pages
 
         protected string PaymentDescription { get; set; }
 
-        protected decimal PaymentAmount { get; set; }   
+        protected decimal PaymentAmount { get; set; }
 
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
+
+        protected string DisplayButtons { get; set; } = "block";
 
         protected override async Task OnInitializedAsync()
         {
@@ -27,18 +29,24 @@ namespace ProductSoftware.Pages
             {
                 ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
 
-                if (ShoppingCartItems != null)
+                if (ShoppingCartItems != null && ShoppingCartItems.Count() > 0)
                 {
                     Guid orderGuid = Guid.NewGuid();
 
                     PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
                     TotalQty = ShoppingCartItems.Sum(p => p.Qty);
-                    PaymentDescription = $"0_{HardCoded.UserId}_{orderGuid}";
+                    PaymentDescription = $"O_{HardCoded.UserId}_{orderGuid}";
+
                 }
+                else
+                {
+                    DisplayButtons = "none";
+                }
+
             }
             catch (Exception)
             {
-
+                //Log exception
                 throw;
             }
         }
@@ -56,8 +64,9 @@ namespace ProductSoftware.Pages
             {
 
                 throw;
-            }   
+            }
         }
+
 
     }
 }
