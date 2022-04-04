@@ -36,5 +36,7 @@ namespace ProductSoftwareAPI.Repositories
             var products = await this.productSoftwareDbContext.Products.ToListAsync();
             return products;
         }
+
+
     }
 }

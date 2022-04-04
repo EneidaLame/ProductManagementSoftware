@@ -7,7 +7,7 @@ namespace ProductSoftwareAPI.Data
     {
         public ProductSoftwareDbContext(DbContextOptions<ProductSoftwareDbContext> options) :base(options)
         {
-
+				
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -233,17 +233,21 @@ namespace ProductSoftwareAPI.Data
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 1,
-				Name = "Monitors"
+				Name = "Monitors",
+				IconCSS = "fa-light fa-desktop"
+
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 2,
-				Name = "Desktops"
+				Name = "Desktops",
+				IconCSS = "fa-thin fa-computer"
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 3,
-				Name = "Laptops"
+				Name = "Laptops",
+				IconCSS = "fa-light fa-laptop"
 			});
 		}
 
