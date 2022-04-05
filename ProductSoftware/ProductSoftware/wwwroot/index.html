@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Product Software</title>
+    <title>ProductSoftware</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="ProductSoftware.styles.css" rel="stylesheet" />
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,8 +20,7 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-
-    <script src="https://www.paypal.com/sdk/js?client-id=AeCTeWENXRRp36SRzOF87GkmwgcTOqJp_BQjhwuEm4J7wSm9sf9f_bxdHDVPsowH4rrb9KZIl15bDJq_&currency=EUR" data-sdk-integration-source="button-factory"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AeCTeWENXRRp36SRzOF87GkmwgcTOqJp_BQjhwuEm4J7wSm9sf9f_bxdHDVPsowH4rrb9KZIl15bDJq_&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
         function initPayPalButton() {
             var description = document.querySelector('#smart-button-container #description');
@@ -70,9 +69,12 @@
                     console.log(err);
                 }
             }).render('#paypal-button-container');
-
+        }
     </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="js/ShoppingCartFunctions.js"></script>
+
+
 </body>
+
 </html>

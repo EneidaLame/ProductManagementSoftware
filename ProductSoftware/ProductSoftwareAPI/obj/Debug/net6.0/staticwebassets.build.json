@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sIyLwNfvC9MSMxJj/8inNEBNk9GBEqW1N8EkITCnKGQ=",
+  "Hash": "eWsHd0XrcsxVjYnP4hJ4CBKEaygyH+s1TvYubU1OcmA=",
   "Source": "ProductSoftwareAPI",
   "BasePath": "_content/ProductSoftwareAPI",
   "Mode": "Default",
@@ -14341,6 +14341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\js\\ShoppingCartFunctions.js",
+      "SourceId": "ProductSoftware",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/ShoppingCartFunctions.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ShoppingCartFunctions.js"
     },
     {
       "Identity": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\sample-data\\weather.json",
