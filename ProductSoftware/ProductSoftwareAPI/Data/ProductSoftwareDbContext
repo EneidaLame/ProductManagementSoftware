@@ -233,21 +233,21 @@ namespace ProductSoftwareAPI.Data
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 1,
-				Name = "Monitors",
-				IconCSS = "fa-light fa-desktop"
+				Name = "Monitors"
+				
 
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 2,
-				Name = "Desktops",
-				IconCSS = "fa-thin fa-computer"
+				Name = "Desktops"
+				
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 3,
-				Name = "Laptops",
-				IconCSS = "fa-light fa-laptop"
+				Name = "Laptops"
+				
 			});
 		}
 
