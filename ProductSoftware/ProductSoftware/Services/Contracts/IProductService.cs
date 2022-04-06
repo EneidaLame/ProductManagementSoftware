@@ -6,8 +6,11 @@ namespace ProductSoftware.Services.Contracts
     {
         Task<IEnumerable<ProductDto>> GetItems();
         Task<ProductDto> GetItem(int id);
+        Task<IEnumerable<ProductCategoryDto>> GetProductCategories();
+        Task<IEnumerable<ProductDto>> GetItemsByCategory(int categoryId);
 
-       
+
+
 
     }
 }

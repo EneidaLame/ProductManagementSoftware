@@ -9,6 +9,8 @@ namespace ProductSoftwareAPI.Repositories.Contracts
         Task<Product> GetItem(int id);
         Task<ProductCategory> GetCategory (int id);
 
+        Task<IEnumerable<Product>> GetItemsByCategory(int id);
+
 
 
     }
