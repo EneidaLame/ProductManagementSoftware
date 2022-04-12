@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2K1NtVXBj716E2osIzHch1gA923++/mjFBQRqSfFWfE=",
+  "Hash": "7bLVZeIjK/bqwh2d/cNDlgsYiGyKGotI/0+I2FFmCOc=",
   "Source": "ProductSoftware",
   "BasePath": "/",
   "Mode": "Root",
@@ -14227,6 +14227,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Laptops\\5.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\Images\\Laptops\\Acer-Aspire-5_A514-54-54G_Gold_modelmain.png",
+      "SourceId": "ProductSoftware",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/Laptops/Acer-Aspire-5_A514-54-54G_Gold_modelmain.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Laptops\\Acer-Aspire-5_A514-54-54G_Gold_modelmain.png"
     },
     {
       "Identity": "C:\\Users\\elame\\Desktop\\ProductManagementSoftware\\ProductSoftware\\ProductSoftware\\wwwroot\\Images\\Monitors\\1.jpg",
