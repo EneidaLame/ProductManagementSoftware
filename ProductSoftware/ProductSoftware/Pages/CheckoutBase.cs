@@ -62,7 +62,6 @@ namespace ProductSoftware.Pages
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
